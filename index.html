@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+
+<!--
+
+Assignment Name: Ace In The Hole Project
+File Name: index.html
+Date: 08/26/2020
+
+-->
+
+
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <meta name="author" content="Aiden">
+    
+    <title>Ace In The Hole Multisport Events</title>
+    
+    
+    <link rel="stylesheet" href="css/template.css" type="text/css">
+
+    
+</head>
+
+<body>
+
+
+<?php include '../includes/header.php';?>
+
+<!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+<div class="topnav" id="myTopnav">
+    <a href="#home" class="active">Home</a>
+    <a href="about.html">About</a>
+  <a href="registration.html">Registration</a>
+  <a href="contact.html">Contact</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+<div style="padding-left:16px">
+  
+</div>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+
+
+<header class="header">
+
+    <!--h1 Text-->
+    <h1>Ace In The Hole Multisport Events</h1>
+
+    </header>
+
+
+
+<!--Large hero image on all displays-->  
+<div id="heroImage">
+    <img src="images/ace15.jpg" alt="competition" height= "auto" width= "100%">
+    </div>
+
+<main>
+    
+<!--h1 Text-->
+<h1>Get to know us!</h1>
+   
+<br>
+
+    
+
+<div id="thankyou" >Ace in the Hole Multisport Events is an event company that hosts multisport athletic events. <br><br> We are proud to offer running and triathlon events to athletes of all shapes and sizes, national origins, gender identifications and cultural backgrounds. We offer Events for Every Body!</div>
+<br>
+<br>
+<br>
+<br>
+
+
+</main>
+    
+<footer>
+    
+    
+<!--Text on "contact" div CLASS-->
+<div class="contact">
+    Ace In The Hole Multisport Events<br>
+    123 NW Everett<br>
+    Portland, Oregon 97209 <br>
+<br>
+(503) 555-5555<br>
+<br>
+</div>
+    
+
+<!--Social media icons in Footer-->    
+<div id="socialMedia">
+    <img src="images/fb-tw.jpg" alt="social media buttons" height= "100px" width= "200px">
+     
+</div> 
+
+    
+<!--Footer paragraph text-->
+<p>&copy;2020 All Rights Reserved.<br>
+<a href="mailto:aiden.mace@pcc.edu">
+    aiden.mace@pcc.edu</a></p>
+    
+<br>
+
+</footer>
+  
+  
+
+</body>
+</html>

@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+
+<!--
+
+Assignment Name: Template, Contact Page
+File Name: contact.html
+Date: 08/26/2020
+-->
+
+
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <meta name="author" content="Aiden">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="css/template.css">
+    
+</head>
+
+<body>
+    
+       
+<!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+<div class="topnav" id="myTopnav">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="registration.html">Registration</a>
+    <a href="contact.html" class="active">Contact</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+    </a>
+</div>
+
+<div style="padding-left:16px">
+
+</div>
+
+<script>
+    function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+    }
+</script>
+
+ 
+<!--h1 Text-->
+<h1>Contact Info</h1>   
+    
+<!--Large hero image on all displays-->
+
+<div id="heroImage">
+    <img src="images/ace10.jpg" alt="competition" height= auto width= "100%">
+</div>
+   
+<main>
+    
+<!--h1 Text-->    
+<h1>When &amp; Where To Pick Up A Packet </h1>
+    
+<!--h2 paragraph text-->
+    <p>All packet pick up will occur at Why Worry Racing, 123 NW Everett, Portland OR. Packet pick up hours: Thursday 8-5, Friday 9-noon. No day of event packet pick up.
+</p>
+ 
+    
+  <?php include ../includes/header.php;?>
+    
+<!--Form for contact page in Footer-->   
+    <h1>Send us a comment!</h1>
+    <p>Required fields are marked with an asterisk (*)</p>
+      
+    
+<div class="contact">
+<form method="post" action="https://webdevbasics.net/scripts/demo.php">
+
+<fieldset>
+<select size="1">
+<option>Athlete, Volunteer, or Interested Party (select list)</option>
+<option value="athlete">Athlete</option>
+<option value="volunteer">Volunteer</option>
+<option value="interested party">Interested Party</option>
+</select>
+<br>
+<br>
+<label for="fname">*First Name:</label>
+<input type="text" name="fname" id="fname" required>
+<label for="lname">*Last Name:</label>
+<input type="text" name="lname" id="lname" required>
+<label for="email">*E-mail Address:</label>
+<input type="email" name="email" id="email" required>
+<br>
+<label for="myComments"><br>Questions or Comments</label>
+<textarea name="myComments" id="myComments" rows="8" cols="25"></textarea>
+<button id="mySubmit">Submit</button>
+</fieldset>
+</form>
+    
+</div>   
+    
+    
+    
+    
+    
+    
+    
+    
+<br>
+<br>
+ 
+
+    
+
+</main>
+
+<footer>
+    
+
+    
+    
+    
+<!--h1 Text-->
+<h1>Follow Us On Social!</h1> 
+
+
+<div id="socialFeed">
+
+<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FCas222Aceinthehole-110661963841617%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+
+<hr>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Any weather is training weather!</p>&mdash; CAS 222 (@pcccas222) <a href="https://twitter.com/pcccas222/status/1055566270580445185?ref_src=twsrc%5Etfw">October 25, 2018</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<br>
+<br>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Come on out June 22 and 23, 2019 for an Event for Every Body!</p>&mdash; CAS 222 (@pcccas222) <a href="https://twitter.com/pcccas222/status/1133483152414896128?ref_src=twsrc%5Etfw">May 28, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    
+<hr>
+
+    </div>
+
+<br>
+<br>
+
+<!--Google Map-->
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11198.178755302519!2d-122.7314233!3d45.4386789!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x5c77683f4bae5208!2sPortland%20Community%20College%20Sylvania!5e0!3m2!1sen!2sus!4v1574054080945!5m2!1sen!2sus" width="100%" height="600" frameborder="0" style="border:0;" allowfullscreen=""></iframe> 
+
+
+
+
+
+<!--Div Class "contact" with business name, address, and phone-->            
+<div id="contact2">
+    Ace In The Hole Multisport Events<br>
+    123 NW Everett<br>
+    Portland, Oregon 97209<br>
+<br>
+(503) 555-5555<br>
+<br>
+<br>
+</div>
+    
+
+
+
+
+    
+<br>
+      
+<!--Paragraph text in Footer-->
+&copy;2020 All Rights Reserved.<br>
+<a href="mailto:aiden.mace@pcc.edu">
+    aiden.mace@pcc.edu</a>
+
+<br>
+
+</footer>
+    
+
+    
+</body>
+</html>

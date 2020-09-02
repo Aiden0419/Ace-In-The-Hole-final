@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+
+<!--
+
+Assignment Name: About Page
+File Name: about.html
+Date: 08/26/2020
+-->
+
+
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <meta name="author" content="Aiden">
+    <title>About</title>
+    <link rel="stylesheet" href="css/template.css">
+    <link rel="stylesheet" href="scripts/slider.js">
+    <link rel="stylesheet" href="scripts/faq.js">
+    
+    
+    
+   
+    
+</head>
+
+<?php include '../includes/header.php" ;?>
+
+<body>
+
+<!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+<div class="topnav" id="myTopnav">
+    <a href="index.html">Home</a>
+    <a href="about.html" class="active">About</a>
+    <a href="registration.html">Registration</a>
+    <a href="contact.html">Contact</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+    </a>
+</div>
+
+<div style="padding-left:16px">
+
+</div>
+
+<script>
+    function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+    }
+</script>
+
+
+
+<header class="header">
+                    
+<!--h1 Text-->
+<h1>About Us</h1>
+           
+</header>
+    
+
+    
+
+   <!-- Slideshow container -->
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <div class="numbertext"></div>
+    <img src="images/ace5.jpg" style="width:100%">
+    <div class="text"></div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext"></div>
+    <img src="images/ace9.jpg" style="width:100%">
+    <div class="text"></div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext"></div>
+    <img src="images/ace12.jpg" style="width:100%">
+    <div class="text"></div>
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)"></a>
+  <a class="next" onclick="plusSlides(1)"></a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div> 
+
+
+<main>
+    
+<!--h1 Text / About The Event-->
+
+<h1>About The Event</h1>
+    <br>
+<!--Paragraph 'About The Event'-->    
+<p>The Annual Ace in the Hole Multisport Weekend is a legendary event in the Oregon triathlon and running community. It has become a traditional destination race for athletes from across the nation.
+
+There is something for every level of athletic ability. The weekend includes a first timer triathlon, a sprint, Olympic, and Half-Iron triathlons and 10K and Half marathon runs. Come to experience your first race or come to compete to win, but make sure you come to have fun!
+</p>
+    
+<br>
+ 
+
+<!--h1 Text / What To Bring-->    
+<h1>What To Bring</h1>
+
+<p>Watch the weather closely. The show goes on no matter what the weather is doing.
+    <br>
+    <br>
+
+You must wear your chip timing piece during the entire event. You will be given a band that will hold your chip timing piece around your ankle throughout the entire event. Be sure that it is snapped tightly. Be sure to have your Chip Timing piece on before you start the race and be sure to step over the timing mats after each segment of the race. If you are wearing a wet-suit, make sure the timing piece goes under your wetsuit otherwise, you will have a very difficult time getting off your wet suit.
+    <br>
+    <br>
+
+Swim: Wetsuits are optional for the swim but will provide buoyancy and warmth. However, many people opt for no wetsuit for a triathlon so no worries. We will provide you with a swim cap but you will want to bring your own goggles.
+    <br>
+    <br>
+
+Bike: A biking helmet is mandatory. You will also receive 2 stickers in your package with your race number on them. The small sticker should go on the front of your helmet. The bigger sticker will wrap around your bike frame. Road or mountain bikes are acceptable. For safety reasons, be sure to have end-caps on the end of your handle-bars.
+    <br>
+    <br>
+
+Run: You must finish the race with your bib number on the front of you. Some people choose to pin it on at the beginning of the race and have it on for the whole event so they don't have to worry about it. Others pin it on a singlet that they put on once they finish the swim before they head out for the bike. Others use an elastic racing strap that they pin their bib number to and then quickly strap it on before they leave for the run. Use whatever option feels best for you.
+    <br>
+    <br>
+
+Remember to bring a change of clothing so you can enjoy the post-event festivities.</p>
+    
+    
+    
+    
+ 
+    
+<hr>    
+<!--h1 Text / FAQ Section-->   
+
+<h2>FAQs</h2> 
+
+    <p>What are the Rules?</p>
+    <ul><li>We currently adhere to the USAT Rules for Triathlon 	&amp; Duathlon. Important rules include no drafting, you must wear a helmet and music is ABSOLUTELY NOT allowed during the bike for obvious safety reasons.</li></ul>
+<p>Can I use a personal music device while cycling?</p>
+    <ul><li>Absolutely no music devices are allowed during the bike segment for obvious safety risks and will result in immediate disqualification.</li></ul>
+<p>Can I use a personal music device while running?</p>
+    <ul><li>During any running segments, we prefer for athletes to NOT use music devices to maximize safety, assure a fair competitive environment and assure athletes can hear all course marshal instructions. With that said, we also understand that many athletes rely on music to help endure the challenge of running. To accommodate the needs of our athletes while still assuring maximum safety and a fair, competitive environment, here is the arrangement that we can accommodate.</li></ul>
+    
+    <ul><li>If you chose to use a personal music device, you must always keep one ear open for instructions so only one ear-bud can be used at any time. In addition, if you opt to use music, you will not be eligible for awards, points and rankings. So as an athlete, you have to make a choice - music or awards/points/rankings.</li></ul>
+    
+    <ul><li>If you are using a personal music devise with two earbuds, you will be immediately disqualified. Trust us, we don't want to have to enforce a disqualification but in order to assure the safety of all athletes, this is a very important rule.</li></ul>
+    
+    
+    <ul><li>We also request that if you chose to use a personal music device that you keep the volume to a minimum to assure all instructions can be heard.</li></ul>
+    
+    <p>Do I need to wear a wetsuit? </p>
+    <ul><li>No, you do not need to wear a wetsuit. Many will not wear a wetsuit while others will choose to wear a wetsuit because of the buoyancy and warmth factor.</li></ul>
+    
+    <p>Do I have to use a road or racing bike?</p>
+    <ul><li> No. We welcome any type of bike as long as it is functioning properly with brakes and endcaps at the end of your handlebars.</li></ul>
+
+    
+    
+    
+    
+    
+<h1>Don't Forget To Check The Weather!</h1>
+    
+    <a class="weatherwidget-io" href="https://forecast7.com/en/45d53n122d69/97209/" data-label_1="PORTLAND" data-label_2="WEATHER" data-theme="original" >PORTLAND WEATHER</a>
+<script>
+!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
+</script>
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+      
+
+
+
+</main>
+    
+    
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="scripts/slider.js"></script>
+<script src="scripts/faq.js"></script>
+    
+    
+    
+    
+    
+<footer>
+    
+    
+<!--Text for "contact" div CLASS-->
+<div class="contact">
+    Ace In The Hole Multisport Events<br>
+    123 NW Everett<br>
+    Portland, Oregon 97209 <br>
+<br>
+(503) 555-5555<br>
+<br>
+</div>
+   
+<!--Social media icons in Footer-->    
+<div id="socialMedia">
+    <img src="images/fb-tw.jpg" alt="social media buttons" height= "100px" width= "200px">
+     
+</div> 
+    
+<!--Paragraph text in Footer-->    
+<p>&copy;2020 All Rights Reserved.<br>
+<a href="mailto:aiden.mace@pcc.edu">
+    aiden.mace@pcc.edu</a></p>
+
+<br>
+
+</footer>
+    
+
+    
+</body>
+</html>
